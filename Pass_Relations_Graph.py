@@ -331,7 +331,7 @@ def output_graph(graph, html_path, gml_path, graph_count):
     """
     legend_div.append(BeautifulSoup(legend_html, 'html.parser'))
 
-    # Insert the new <div> and <style? tags
+    # Insert the new <div> and <style> tags
     body_tag.append(legend_div)
     head_tag.append(style_tag)
 
