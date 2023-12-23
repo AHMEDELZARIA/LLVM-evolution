@@ -342,7 +342,7 @@ def output_graph(graph, html_path, gml_path, graph_count):
 
 def main():
 
-    input("") # Ignore, /Users/ahmedelzaria/Documents/LLVM/c_benchmark
+    input("") # Ignore
 
     # Get the benchmark path that holds the .c files
     benchmark_path = input("Enter the directory path containing the .c files: ").strip()
@@ -380,11 +380,8 @@ def main():
     graph_count = 1
 
     # List of passes
-    # passes = ['jump-threading', 'early-cse', 'mem2reg', 'forceattrs', 'inferattrs', 'ipsccp', 'called-value-propagation', 'globalopt']
-    # passes = ['forceattrs', 'inferattrs', 'ipsccp', 'called-value-propagation', 'globalopt', 'mem2reg', 'deadargelim', 'instcombine', 'simplifycfg']
     passes = ['loop-simplify', 'loop-rotate', 'loop-idiom', 'loop-deletion', 'loop-unroll', 'loop-distribute', 'loop-vectorize', 'loop-load-elim', 'loop-sink', ]
-    # passes = ['forceattrs', 'inferattrs', 'ipsccp', 'called-value-propagation', 'globalopt', 'mem2reg', 'deadargelim', 'instcombine', 'simplifycfg', 'always-inline', 'sroa', 'speculative-execution', 'jump-threading', 'correlated-propagation', 'libcalls-shrinkwrap', 'pgo-memop-opt', 'tailcallelim', 'reassociate', 'loop-simplify', 'lcssa', 'loop-rotate', 'licm', 'indvars', 'loop-idiom', 'loop-deletion', 'loop-unroll', 'memcpyopt', 'sccp', 'bdce', 'dse', 'adce', 'globaldce', 'float2int', 'loop-distribute', 'loop-vectorize', 'loop-load-elim', 'alignment-from-assumptions', 'strip-dead-prototypes', 'loop-sink', 'instsimplify', 'div-rem-pairs', 'verify', 'ee-instrument', 'early-cse', 'lower-expect']
-
+	
     # Loop through each program in benchmark
     for program in os.listdir(ir_benchmark_path):
 
