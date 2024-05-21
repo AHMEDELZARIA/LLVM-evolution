@@ -109,7 +109,7 @@ Connected components are also highlighted in order to identify weakly connected 
 ## *Usage*
 **In order to use the pass microscope for yourself, there are only a few simple steps required!**
 
-1. Download the file **"Pass_Relations_Graph.py"**, which can be found in the **main branch of this repository**. **Each function used is documented!**
+1. Download the file **"passRelationsGraph.py"**. **Each function used is documented!**
 2. Select the passes of interest by navigating to the **main function (line 383)** and adding them to the list "passes".
 ```python
 def main():
