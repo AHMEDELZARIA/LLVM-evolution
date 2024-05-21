@@ -13,7 +13,7 @@ Looking at the big picture, it's a 3 step process. Step #1, the user writes thei
 
 My main focus is the middle stage of this process, the compiler. As mentioned, the compiler is a set of complex programs and hence, a lot of software engineers have no idea what really happens during this stage of the process.
 <div align="center">
-<img src="https://private-user-images.githubusercontent.com/93144563/293730115-bafd285f-9c1b-41c4-982b-b5badfc3a0f5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQyMTEwMjcsIm5iZiI6MTcwNDIxMDcyNywicGF0aCI6Ii85MzE0NDU2My8yOTM3MzAxMTUtYmFmZDI4NWYtOWMxYi00MWM0LTk4MmItYjViYWRmYzNhMGY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTAyVDE1NTIwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRlYjE1MWQ2ZjUwZTY0YTgxMTk1YmY3NDhkMDllNjJkM2ZlMTlmMGExOWMwN2ViYjlmYzU0ZjdjZDlkNmQ0N2ImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.mtJn1xefU8PjpA3pCQP32D-FsOjs6GvIBqhOFxFmhbI" alt="Example Image" width="500" height="185">
+<img src="https://github.com/AHMEDELZARIA/Recover-JPEG/assets/93144563/ccbb9484-b8ab-40d2-accb-b6b8183af5f8" alt="Example Image" width="500" height="185">
 <p>3 step process described above</p>
 </div>
 
@@ -21,7 +21,7 @@ My main focus is the middle stage of this process, the compiler. As mentioned, t
 An analogy that will help us understand this process is writing an essay. The compilation process consists of 6 stages. Stage #1 is called Lexical Analysis. Think of this as separating the words from a sentence. Stage #2 is called Syntax Analysis, think of this as making sure your sentance has proper grammar. Stage #3 is called Semantic Analysis, now you are making sure that your sentance has meaning and is not pointless. Stage #4 is called Intermediate Code Generation and this is the area of our research. Think of this as a representation of your code which is not completely low level, but it isn't also high level, somewhere in the middle. Now that we have access to this representation, we can start treating it like a rough draft of an essay. When you have a rough draft, you will likely start proofreading it and making it better. It's the same case with this intermediate representation which leads me to stage #5, which is called Code Optimization. During this stage, the compiler is optimizing your code through this representation which will ultimately lead to more efficient machine code. More efficient machine code means smoother programs, less power consumption, less resource consumption, and a bunch more useful benefits. The final stage, stage #6, is linking (for multiple files). Imagine you've perfected all your sentences and now you have to combine them to get the full story.
 
 <div align="center">
-<img src="https://private-user-images.githubusercontent.com/93144563/293730365-d9e7a20b-b6bd-4f1c-9927-b6bd29debcd0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQyMTExMDIsIm5iZiI6MTcwNDIxMDgwMiwicGF0aCI6Ii85MzE0NDU2My8yOTM3MzAzNjUtZDllN2EyMGItYjZiZC00ZjFjLTk5MjctYjZiZDI5ZGViY2QwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTAyVDE1NTMyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdiOWEyOWQ2NDI5ZTJlMzU5ZWFiMDBkZjhiZmIwNGMyMWZjYWEwNmI2ZTBhMzgwODgwODFlYTMxMzQ5NGYxMGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.V_qmLxVOhFi8gZOx7noT4nayl1-IxQMo8wHY5HHqaHg" alt="Example Image" width="1158" height="358">
+<img src="https://github.com/AHMEDELZARIA/LLVM-evolution/assets/93144563/4748cf1b-9121-43dc-a56f-5ef67afae868" alt="Example Image" width="1158" height="358">
 <p>General overview of LLVM compiler infrastructure with a focus on the middle-end stage where optimizations take place</p>
 </div>
 
@@ -36,7 +36,7 @@ Everytime an iPhone, MacBook, iMac, iPad, and most other apple devices are turne
 **LLVM provides us with over 70 passes**. After doing some combinatorial analysis, **that's over 70! pass combinations which the compiler may apply on the intermediate representation.** The number of atoms in the universe is around 10^80. **Over 70! is over 10^100 possible pass combinations out there.** That's an enormous amount of interactions. To put this in perspective, it would be more ridiculous to study all these interactions than it is to go out in space and visit each atom in the universe and note down how it interacts with the other atoms. 
 
 <div align="center">
-<img src="https://private-user-images.githubusercontent.com/93144563/293730749-e7e54515-516e-440f-a910-e5685bdc1b1c.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQyMTExOTgsIm5iZiI6MTcwNDIxMDg5OCwicGF0aCI6Ii85MzE0NDU2My8yOTM3MzA3NDktZTdlNTQ1MTUtNTE2ZS00NDBmLWE5MTAtZTU2ODViZGMxYjFjLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTAyVDE1NTQ1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRlOTcxMTI5M2E1ZjNmZGNhZGMxZTI3ODllZTdhZGEyODVhN2ZiNmE3MDA1NWVkZDhjMGYyMDQ0OWY0YjBlMTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.2XwzwJ24qFW4ECpb_V9MkdeavbrzOcJoYIl3xuKYqgQ" alt="Example Image" width="550" height="300">
+<img src="https://github.com/AHMEDELZARIA/Recover-JPEG/assets/93144563/5039a79d-85eb-4cf9-ada0-d783b51465fb" alt="Example Image" width="550" height="300">
 <p>There are more possible pass combinations out there than the number of atoms in the universe...</p>
 </div>
 
@@ -60,11 +60,11 @@ Back to the universe example, you can imagine if you were tasked to discover and
 We utilize the "Angha Project" benchmark consisting of 1 million clang compilable .c programs. After parsing each program and extracting structural metrics (number of variables, functions, control flows, etc.), it was evident that the benchmark could be downsized to 3600 random programs without bias since metrics revealed signs of a homogenous benchmark. This left us with a more practical amount of programs to work with.
 
 <div align="center">
-<img src="https://private-user-images.githubusercontent.com/93144563/293730937-2d4fd3ca-fed4-4ff6-910d-e62ddb35d4b7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQyMTEyNTQsIm5iZiI6MTcwNDIxMDk1NCwicGF0aCI6Ii85MzE0NDU2My8yOTM3MzA5MzctMmQ0ZmQzY2EtZmVkNC00ZmY2LTkxMGQtZTYyZGRiMzVkNGI3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTAyVDE1NTU1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVkMzI2ZjI4MTQ3OWU1ZDAxMTY5YjBlMjU1ZDMzZGIyNTAyNzA3M2NjMzE4NWU0MjMzNzQ4YmQxNTc0MGFkY2EmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Yj0KmWi6k7aeojR-kA9Nh-iQcvZLOcsPPEtBQFGu1wY" alt="Example Image" width="600" height="500">
+<img src="https://github.com/AHMEDELZARIA/Recover-JPEG/assets/93144563/f6faff9c-ae4d-4d12-adc2-c95870657c5a" alt="Example Image" width="600" height="500">
 </div>
 
 <div align="center">
-<img src="https://private-user-images.githubusercontent.com/93144563/293731104-c7ff5ba8-247f-4de7-8dea-6becb09040ba.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQyMTE1NTAsIm5iZiI6MTcwNDIxMTI1MCwicGF0aCI6Ii85MzE0NDU2My8yOTM3MzExMDQtYzdmZjViYTgtMjQ3Zi00ZGU3LThkZWEtNmJlY2IwOTA0MGJhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTAyVDE2MDA1MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTEwMzY3MDZkYzBiOWI0Y2RlNGEzMjRlNDk3NDRlZDc5ZTk4YmQzZGZhMGU3ZThlZjE1ZTJjMDU4ZjExODc1NDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.DuBi6KBkvarHAcIPOElf9H5Hh1OWbRexQ1aHLHgSXC8" alt="Example Image" width="600" height="500">
+<img src="https://github.com/AHMEDELZARIA/Recover-JPEG/assets/93144563/56565086-c31c-435d-ad24-ff0b4aa63a61" alt="Example Image" width="600" height="500">
 <p>Graphs of metrics revealed similar results, indicating a homogenous benchmark</p>
 </div>
 
@@ -79,7 +79,7 @@ A **4-step process** is executed on each program:
 4. Repeat for all nodes in queue until empty
 
 <div align="center">
-<img src="https://private-user-images.githubusercontent.com/93144563/293731269-f6092c74-b07c-4fec-a9e1-689e31d2196f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQyMTEzMzUsIm5iZiI6MTcwNDIxMTAzNSwicGF0aCI6Ii85MzE0NDU2My8yOTM3MzEyNjktZjYwOTJjNzQtYjA3Yy00ZmVjLWE5ZTEtNjg5ZTMxZDIxOTZmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTAyVDE1NTcxNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYzZjQ2ODA5NzgzOGVkZTEyYzMzYjdlN2RmMDYzNTc4M2E0ZTk4NzkzYmE1OTMwYTQ3ODNmYjAzZWZkNGY0MTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.BUM1-DJxpbcOORLHq5V9UikKrgaAx_3YpflJLMYq7WE" alt="Example Image" width="1000" height="300">
+<img src="https://github.com/AHMEDELZARIA/Recover-JPEG/assets/93144563/3d7094ed-eabe-4045-8c77-639dedc62dee" alt="Example Image" width="1000" height="300">
 <p>Demonstration of how transition graphs are built</p>
 </div>
 
@@ -92,17 +92,17 @@ A **4-step process** is executed on each program:
 Connected components are also highlighted in order to identify weakly connected and strongly connect program states. Here are some examples:
 
 <div align="center">
-<img src="https://private-user-images.githubusercontent.com/93144563/293731426-662ebf0f-58f7-412f-aaa8-0ee6ebc005b7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQyMTE1MTYsIm5iZiI6MTcwNDIxMTIxNiwicGF0aCI6Ii85MzE0NDU2My8yOTM3MzE0MjYtNjYyZWJmMGYtNThmNy00MTJmLWFhYTgtMGVlNmViYzAwNWI3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTAyVDE2MDAxNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWIxNWRkMTY4ODM5ZjY1ZDdhNzNlZDc3NjlmYjMxNTFiYmUyMTY0OTNiMTRiNTg2MjdiYThhOWZiMzIyMTNlNzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.i_CIzDXtCIejGuqeVkvLxESI9a3TulRb5G0JY6WfPbs" alt="Example Image" width="600" height="500">
+<img src="https://github.com/AHMEDELZARIA/Recover-JPEG/assets/93144563/ce958494-5f82-4737-9bb0-e016e780f043" alt="Example Image" width="600" height="500">
 <p>Fate of program depends on 2 passes in the middle, either trapping it in the left or right cluster which indicates significance in these passes</p>
 </div>
 
 <div align="center">
-<img src="https://private-user-images.githubusercontent.com/93144563/293731539-d9a7d578-1b8b-4cb0-9cd3-afeb88147764.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQyMTEzOTQsIm5iZiI6MTcwNDIxMTA5NCwicGF0aCI6Ii85MzE0NDU2My8yOTM3MzE1MzktZDlhN2Q1NzgtMWI4Yi00Y2IwLTljZDMtYWZlYjg4MTQ3NzY0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTAyVDE1NTgxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU3ZGFmZWExZDhmOGYzMGI2MzU3YzFmMDI1YmU5ZjA5MWY5MjJhYWZiMzkyNTZlZmQxMDM3MmZkZGJjNzE4MDgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.fpyyn33OHAYWf_gus-_GsD3FP7_ZCru3Is1AvsL5518" alt="Example Image" width="600" height="500">
+<img src="https://github.com/AHMEDELZARIA/Recover-JPEG/assets/93144563/c09180a6-08b8-4c27-93fd-e5da2e1b45a8" alt="Example Image" width="600" height="500">
 <p>Small set of passes applied to a program</p>
 </div>
 
 <div align="center">
-<img src="https://private-user-images.githubusercontent.com/93144563/293731620-da681ed6-9072-49a1-b14a-77c3e3d39c89.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQyMTE0NTIsIm5iZiI6MTcwNDIxMTE1MiwicGF0aCI6Ii85MzE0NDU2My8yOTM3MzE2MjAtZGE2ODFlZDYtOTA3Mi00OWExLWIxNGEtNzdjM2UzZDM5Yzg5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTAyVDE1NTkxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ5YWQwZWMwMjNhOTk5NzQ1YWU3ZTdkY2VhZjJhMTUyYzRiYjUyN2U2MDc0ZTRkNDczOGMyZTUyNjYyYzFkZDEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.0aOKGYMUsSzqRAjOZwATCrHL8k9ByzQ6hvQV5-IBA-c" alt="Example Image" width="600" height="500">
+<img src="https://github.com/AHMEDELZARIA/Recover-JPEG/assets/93144563/a1af8c9c-464f-4f4a-a45a-9c2d051a3bb5" alt="Example Image" width="600" height="500">
 <p>Large set of passes applied to a program</p>
 </div>
 
